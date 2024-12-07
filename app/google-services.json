@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "811988687871",
+    "project_id": "notifications-c1775",
+    "storage_bucket": "notifications-c1775.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811988687871:android:99746eb772143a6e91a5ca",
+        "android_client_info": {
+          "package_name": "com.aqeel.adminapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcIF785ZttjZWyS4XQ06gsBVxpfuUDs8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
