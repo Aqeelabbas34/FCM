@@ -1,12 +1,13 @@
 package com.aqeel.adminapp.notifications
 
-import android.app.DownloadManager.Request
+
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.OkHttpClient
 import okhttp3.RequestBody
+import okhttp3.Request
 import org.json.JSONObject
 
 class FCM {
