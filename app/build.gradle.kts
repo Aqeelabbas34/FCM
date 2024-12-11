@@ -34,6 +34,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures {
+        viewBinding = true
+    }
     packagingOptions {
         exclude("META-INF/DEPENDENCIES")
         exclude("META-INF/LICENSE")
@@ -41,6 +44,7 @@ android {
         exclude("META-INF/NOTICE")
         exclude("META-INF/NOTICE.txt")
     }
+
 }
 
 dependencies {
