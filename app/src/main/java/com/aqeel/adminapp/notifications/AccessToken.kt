@@ -8,16 +8,9 @@ import java.util.concurrent.Executors
 
 class AccessToken {
     companion object {
-        private const val FIREBASE_MESSAGING_SCOPE = "https://www.googleapis.com/auth/firebase.messaging"
-
-        fun getAccessTokenAsync(callback: AccessTokenCallback) {
-            val executor = Executors.newSingleThreadExecutor()
-            executor.submit {
-                val token = getAccessToken()
-                callback.onAccessTokenReceived(token)
-            }
-//             executor.shutdown()
-        }
+        private const val FIREBASE_MESSAGING_SCOPE =
+            "https://www.googleapis.com/auth/firebase.messaging"
+        
 
         private fun getAccessToken(): String? {
             return try {
